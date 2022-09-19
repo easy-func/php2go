@@ -1,0 +1,59 @@
+# Reference https://github.com/github/gitignore/blob/master/Go.gitignore
+# Binaries for programs and plugins
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# OS General
+Thumbs.db
+.DS_Store
+
+# project
+*.cert
+*.key
+*.log
+bin/
+
+# Develop tools
+.vscode/
+.history/
+.idea/
+*.swp
+logs
+deploy/
+
+#框架运行时，自动生成的，不用提交到仓库，以便于减少 git 的大小
+_autoGeneral/
+_gormtTool
+_init
+configs/bootstrap/gormts/*
+configs/config.toml
+go.autoGeneral.go
+go.autoGeneral
+go.genrealGoBin.go
+go.genrealGoBin
+go.sum
+go-carpet*
+gormtTool.go
+http.main/
+job.main
+.MS_ENV
+runtime/
+server
